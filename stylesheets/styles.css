@@ -233,7 +233,7 @@ footer h1 {
 
 .board figure {
 	width: 40%;
-	height: 320px;
+
 	display: inline-block;
 	margin-left: 7%;
 	margin-bottom: 7%;
@@ -242,7 +242,6 @@ footer h1 {
 .board figure img {
 	margin-left: 28%;
 	width: 40%;
-	text-align: top;
 	border-radius: 50%;
 }
 
