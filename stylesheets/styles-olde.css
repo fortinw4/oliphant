@@ -1,0 +1,333 @@
+
+
+/********************************************
+
+	Inherited Styles
+
+********************************************/
+
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+	color: #071b2c;
+	font-family: 'Muli', sans-serif;
+	background: #333333; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#a0c2f1, #314161);  
+	background: -o-linear-gradient(#a0c2f1, #314161); 
+	background: -moz-linear-gradient(#a0c2f1, #314161); 
+	background: linear-gradient(#a0c2f1, #314161); 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+	margin: 0 2% 7% 0;
+	font-size: 1.8em;
+}
+
+p {
+	font-size: 1.2em;
+	width: 65%;
+	margin: 3% auto;
+	line-height: 1.5;
+}
+
+li {
+	list-style-type: square;
+}
+
+.bold {
+	display: block;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+section {
+	margin: 7% 0 7% 0;
+}
+
+section:after {
+	content: ".";
+	border-bottom: 7px solid #e7a61a;
+	border-radius: 20%
+	width: 80%;
+	display: block;
+	margin: 7% auto;
+}
+
+header {
+	font-size: 1.6em;
+	font-weight: 300;
+	padding: 5% 0 5% 0;
+}
+
+header, footer {
+	color: #ecf1f5;
+	background-color: #071b2c;
+}
+
+header h1{
+	text-align: center;
+}
+
+footer {
+	padding: 2% 0 2% 0;
+}
+
+footer h1 {
+	text-align: center;
+}
+
+.mid-section {
+	display: block; /**for IE9+**/
+	width: 76%;
+	margin-left: 12%;
+	background-color: #ecf1f5;
+	border-left: 7px solid #071b2c;
+	border-right: 7px solid #071b2c; 
+}
+
+.main-nav {	
+	background-color: #ecf1f5;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: 400;
+	padding: 2%;
+	border-bottom: 7px solid #071b2c;
+
+}
+
+.main-nav ul li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 6% 0 6%;
+	border-right: 3px solid #071b2c;
+}
+
+.main-nav ul li:nth-child(3){
+	border-right: none;
+}
+
+.main-nav ul li a {
+	color: #071b2c;
+}
+
+.bottom-nav {
+	margin: 7% auto 0 auto;
+	text-align: center;
+}
+
+.bottom-nav ul li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0% 6% 0 6%;
+	border-right: 1px solid #ecf1f5;
+}
+
+.bottom-nav ul li:nth-child(3){
+	border-right: none;
+}
+
+.bottom-nav ul li a {
+	color: #ecf1f5;
+}
+
+/********************************************
+	
+	Index.html
+
+********************************************/
+
+
+.hero-index {
+	width: 100%;
+}
+
+.need img {
+	float: left;
+	margin-right: 2%;
+	width: 20.8%;
+}
+
+.benefit img {
+	clear: both;
+	display: block;
+	margin: 2% auto 4% auto;
+	width: 65%;
+}
+
+.benefit p {
+	width: 65%;
+}
+
+.goals {
+	margin-bottom: 7%;
+}
+
+.goals:after {
+	border-bottom: none;
+}
+
+.goals img {
+	display: block;
+	margin: 4% auto 4% auto;
+	width: 65%;
+}
+
+.goals p {
+	width: 65%;
+}
+
+.goals ul li {
+	margin: 0 20% 0 20%;
+	font-size: 1.2em;
+	line-height: 2;
+}
+
+
+
+/********************************************
+	
+	Who-we-are.html
+
+********************************************/
+
+
+
+.hero-who {
+	width: 100%;
+}
+
+.board figure:nth-child(1) {
+	margin-bottom: 20%;
+}
+
+
+.board .bold, .board p {
+	margin: 0 16% 0 16%;
+	font-size: 1.2em;
+	line-height: 2;
+	text-align: center;
+}
+
+.board p {
+	margin-bottom: 10%;
+	margin: 0 16% 0 16%;
+}
+
+
+.board figure {
+	width: 40%;
+	height: 320px;
+	display: inline-block;
+	margin-left: 7%;
+	margin-bottom: 7%;
+}
+
+.board figure img {
+	margin-left: 28%;
+	width: 40%;
+	text-align: top;
+	border: 7px solid #e7a61a;
+	border-radius: 50%;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contact p {
+	text-align: center;
+}
+
+.contact p:nth-child(4) {
+	margin-bottom: 10%;	
+}
+
+
+/********************************************
+	
+	Scholarship-info.html
+
+********************************************/
+
+
+
+.hero-scholarship {
+	width: 100%;
+}
+
+.scholarship .bold {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.benefit2 img, .who-will img, .funds img, .how-to img, .info-address img {
+	display: block;
+	margin: 0 auto 4% auto;
+	width: 65%;
+}
+
+.funds .bold {
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 7%;
+}
+
+.funds img {
+	margin: 10% auto;
+}
+
+.funds ul li, .criteria ul li, .how-to ul li {
+	margin: 0 16% 0 16%;
+	text-align: center;
+	line-height: 2;
+}
+
+.how-to p, .info-address h3, .info-address p {
+	text-align: center;
+}
+
+.info-address h3 {
+	margin-bottom: 7%;
+	font-weight: bold;
+}
+
+.info-address p {
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.info-address p:nth-child(8){
+	margin-bottom: 10%;
+}
+
+.funds ul li, .criteria ul li, .how-to ul li {
+	font-size: 1.2em;
+	list-style: none;
+}
+
+.criteria p:nth-child(3){
+	text-align: center;
+}
+
+.how-to a {
+	color: #071b2c;
+	font-weight: bold;
+}
+
+.how-to a:hover {
+	font-weight: normal;
+}
