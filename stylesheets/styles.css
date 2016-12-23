@@ -233,10 +233,10 @@ footer h1 {
 
 .board figure {
 	width: 40%;
-
 	display: inline-block;
 	margin-left: 7%;
 	margin-bottom: 7%;
+	vertical-align: top;
 }
 
 .board figure img {
